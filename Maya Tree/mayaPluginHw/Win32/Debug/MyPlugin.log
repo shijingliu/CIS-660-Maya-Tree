@@ -1,0 +1,55 @@
+﻿Build started 2012/2/1 21:42:32.
+     1>Project "F:\CIS 660\mayaPluginHw_basecode\mayaPluginHw\MyPlugin.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Win32\Debug\LSystemMaya.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Win32\Debug\LSystemMaya.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\maya download\Maya2012\include" /Zi /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D NT_PLUGIN /D REQUIRE_IOSTREAM /D _VC80_UPGRADE=0x0710 /D _WINDLL /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".Debug/" /Fd".\Debug/MyPlugin.pdb" /Gd /TP /wd4244 /wd4305 /wd4018 /analyze- /errorReport:prompt cylinder.cpp LSystem.cpp LSystemCmd.cpp LSystemNode.cpp PluginMain.cpp vec.cpp /GR /GS /EHac 
+         cylinder.cpp
+         LSystem.cpp
+         LSystemCmd.cpp
+     1>LSystemCmd.cpp(15): warning C4930: 'MStatus doIt(const MArgList &)': prototyped function not called (was a variable definition intended?)
+         LSystemNode.cpp
+     1>LSystemNode.cpp(98): warning C4101: 'numVertices' : unreferenced local variable
+     1>LSystemNode.cpp(99): warning C4101: 'cubeSize' : unreferenced local variable
+     1>LSystemNode.cpp(98): warning C4101: 'frame' : unreferenced local variable
+         PluginMain.cpp
+         vec.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         D:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Win32\Debug\LSystemMaya.dll.embed.manifest.res" Win32\Debug\LSystemMaya_manifest.rc 
+     1>D:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(F:\CIS 660\mayaPluginHw_basecode\mayaPluginHw\Win32\Debug\LSystemMaya.dll) does not match the Linker's OutputFile property value (F:\CIS 660\mayaPluginHw_basecode\mayaPluginHw\LSystemd.mll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>D:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.dll) does not match the Linker's OutputFile property value (.mll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>D:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(LSystemMaya) does not match the Linker's OutputFile property value (LSystemd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\LSystemd.mll" /INCREMENTAL /NOLOGO /LIBPATH:"F:\maya download\Maya2012\lib" odbc32.lib odbccp32.lib OpenMaya.lib OpenMayaRender.lib Foundation.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\LSystemMaya.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/MyPlugin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug/MyPlugin.lib" /MACHINE:X86 /DLL Win32\Debug\LSystemMaya.dll.embed.manifest.res
+         .Debug/cylinder.obj
+         .Debug/LSystem.obj
+         .Debug/LSystemCmd.obj
+         .Debug/LSystemNode.obj
+         .Debug/PluginMain.obj
+         .Debug/vec.obj /export:initializePlugin /export:uninitializePlugin  
+            Creating library .\Debug/MyPlugin.lib and object .\Debug/MyPlugin.exp
+       Manifest:
+         Deleting file "Win32\Debug\LSystemMaya.dll.embed.manifest".
+         D:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Win32\Debug\LSystemMaya.dll.embed.manifest" /manifest Win32\Debug\LSystemMaya.dll.intermediate.manifest
+         D:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Win32\Debug\LSystemMaya.dll.embed.manifest.res" Win32\Debug\LSystemMaya_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\LSystemd.mll" /INCREMENTAL /NOLOGO /LIBPATH:"F:\maya download\Maya2012\lib" odbc32.lib odbccp32.lib OpenMaya.lib OpenMayaRender.lib Foundation.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\LSystemMaya.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/MyPlugin.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug/MyPlugin.lib" /MACHINE:X86 /DLL Win32\Debug\LSystemMaya.dll.embed.manifest.res
+         .Debug/cylinder.obj
+         .Debug/LSystem.obj
+         .Debug/LSystemCmd.obj
+         .Debug/LSystemNode.obj
+         .Debug/PluginMain.obj
+         .Debug/vec.obj /export:initializePlugin /export:uninitializePlugin  
+            Creating library .\Debug/MyPlugin.lib and object .\Debug/MyPlugin.exp
+         MyPlugin.vcxproj -> F:\CIS 660\mayaPluginHw_basecode\mayaPluginHw\Win32\Debug\LSystemMaya.dll
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\LSystemMaya.unsuccessfulbuild".
+         Touching "Win32\Debug\LSystemMaya.lastbuildstate".
+     1>Done Building Project "F:\CIS 660\mayaPluginHw_basecode\mayaPluginHw\MyPlugin.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.23

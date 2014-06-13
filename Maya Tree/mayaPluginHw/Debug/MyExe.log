@@ -1,0 +1,39 @@
+﻿Build started 2012/2/1 21:42:32.
+     1>Project "F:\CIS 660\mayaPluginHw_basecode\mayaPluginHw\MyExe.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\LSystem.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\LSystem.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"F:\maya download\Maya2012\include" /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D NT_APP /D REQUIRE_IOSTREAM /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4290 /wd4267 /analyze- /errorReport:prompt LSystem.cpp main.cpp vec.cpp
+         LSystem.cpp
+         main.cpp
+         vec.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         D:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\LSystem.exe.embed.manifest.res" Debug\LSystem_manifest.rc 
+     1>D:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(\bin\LSystem.exe) does not match the Linker's OutputFile property value (F:\bin\LSystemd.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>D:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(LSystem) does not match the Linker's OutputFile property value (LSystemd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\bin\LSystemd.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\maya download\Maya2012\lib" odbc32.lib odbccp32.lib Foundation.lib OpenMaya.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\LSystem.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\bin\MyExe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\bin\LSystem.lib" /MACHINE:X86 Debug\LSystem.exe.embed.manifest.res
+         Debug\LSystem.obj
+         Debug\main.obj
+         Debug\vec.obj
+       Manifest:
+         Deleting file "Debug\LSystem.exe.embed.manifest".
+         D:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\LSystem.exe.embed.manifest" /manifest Debug\LSystem.exe.intermediate.manifest
+         D:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\LSystem.exe.embed.manifest.res" Debug\LSystem_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\bin\LSystemd.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\maya download\Maya2012\lib" odbc32.lib odbccp32.lib Foundation.lib OpenMaya.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\LSystem.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\bin\MyExe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\bin\LSystem.lib" /MACHINE:X86 Debug\LSystem.exe.embed.manifest.res
+         Debug\LSystem.obj
+         Debug\main.obj
+         Debug\vec.obj
+         MyExe.vcxproj -> \bin\LSystem.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\LSystem.unsuccessfulbuild".
+         Touching "Debug\LSystem.lastbuildstate".
+     1>Done Building Project "F:\CIS 660\mayaPluginHw_basecode\mayaPluginHw\MyExe.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.62
