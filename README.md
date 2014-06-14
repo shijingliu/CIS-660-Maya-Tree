@@ -1,3 +1,3 @@
 CIS-660-Maya-Tree
 =================
-Implemented a Maya plugin to generate tree models。 
+Implemented a Maya plugin to generate tree models using C++ and Maya.  
